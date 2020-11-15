@@ -1,9 +1,14 @@
-#
+# exclude jupyter checkpoints
 .ipynb_checkpoints/
 
-#
+# exclude data files
+data/
+
+# exclude virtual env
 venv/
 
+# Exclude database file
+db/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
